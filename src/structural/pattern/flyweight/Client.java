@@ -2,6 +2,9 @@ package structural.pattern.flyweight;
 
 import java.util.Random;
 
+/**
+ * 对象池的一种实现，类似线程池
+ */
 public class Client {
     public static void main(String[] args) {
         int toDraw = 1000;

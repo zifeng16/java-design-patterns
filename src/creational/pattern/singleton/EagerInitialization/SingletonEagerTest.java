@@ -2,12 +2,12 @@ package creational.pattern.singleton.EagerInitialization;
 
 public class SingletonEagerTest {
     public static void main(String[] args) {
-        SingletonEager SingletonEagerInstance1 = SingletonEager.getSingletonEagerInstance();
-        SingletonEager SingletonEagerInstance2 = SingletonEager.getSingletonEagerInstance();
+        Singleton singletonInstance1 = Singleton.getSingletonInstance();
+        Singleton singletonInstance2 = Singleton.getSingletonInstance();
 
         // the address of two instance should be identical
-        System.out.println(SingletonEagerInstance1);
-        System.out.println(SingletonEagerInstance2);
+        System.out.println(singletonInstance1);
+        System.out.println(singletonInstance2);
 
     }
 }

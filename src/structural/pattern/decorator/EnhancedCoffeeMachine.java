@@ -1,5 +1,8 @@
 package structural.pattern.decorator;
 
+/**
+ *  Extends the functionality of normal coffee machine
+ */
 public class EnhancedCoffeeMachine implements CoffeeMachine {
     private NormalCoffeMachine normalCoffeMachine;
 

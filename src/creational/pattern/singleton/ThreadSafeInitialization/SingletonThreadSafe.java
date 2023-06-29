@@ -5,6 +5,7 @@ public class SingletonThreadSafe {
 
     private SingletonThreadSafe(){}
 
+    // double check lock
     public static SingletonThreadSafe getSingletonThreadSafe() {
         // Synchronized block
         synchronized (SingletonThreadSafe.class) {
